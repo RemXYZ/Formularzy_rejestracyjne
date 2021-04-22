@@ -1,0 +1,203 @@
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.Rcenter {
+			position: relative;
+			left: 50%;
+			transform: translate(-50%,0);
+		}
+		.row-header {
+			display: inline-block;
+
+			border-bottom-left-radius: 14px;
+			border-bottom-right-radius: 14px;
+			padding: 12px 40px;
+
+			background: #353535;
+			color: white;
+			font-family: Arial;
+		}
+		.content {
+			margin-top: 20px;
+			display: inline-block;
+		}
+		.code {
+			position: relative;
+			left: 100%;
+			margin-bottom: 20px;
+		}
+		.just_code {
+			display: none;
+			position: absolute;
+		}
+		.code_text {
+			position: relative;
+			background: #f2f2f2;
+			border: 1px solid #cecece;
+		}
+		.code_text hr {
+			border: none;
+    		color: #c1c1c1;
+    		background-color: #c1c1c1;
+   			 height: 1px;
+		}
+.del_CK {
+	display: block; 
+	margin-left: auto; 
+	margin-right:0;
+	margin-bottom: 20px;
+	border: 1px solid #dce0d7;
+	background: #e2f7c0;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+.del_CK_BD {
+	margin: auto auto !important;
+}
+
+
+/*TWORZENIE BAZY DANYCH*/
+.create_bd {
+	max-width: 380px;
+	border: 1px solid #f2c076;
+	border-radius: 20px;
+	background: #fce1b8;
+	padding: 30px 20px 20px;
+	margin-bottom: 50px;
+}
+.crt_bd_title {
+	font-family: arial;
+	font-weight: bold;
+	color: #191919;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+.crt_bd_text {
+	text-align: center;
+	font-family: Verdana;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: #2d2d2d;
+}
+.crt_bd_text_alrt {
+	font-family: Verdana;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	color: #2d2d2d;
+}
+.crt_bd_inp {
+	display: block;
+	margin: auto;
+	padding: 5px 10px;
+	font-size: 16px;
+	width: 90%;
+
+	border: 1px solid #54514d;
+	border-radius: 6px;
+	outline: none;
+}
+.crt_bd_but {
+	display: block;
+	margin: 20px 10px 0;
+	padding: 5px 16px;
+	margin-left: auto;
+  	margin-right: 0;
+
+  	background: #f29a15;
+  	color: white;
+  	border: 2px solid #f4840c;
+  	border-radius: 0.6rem;
+  	font-weight: bold;
+  	font-family: arial;
+  	font-size: 16px;
+
+  	cursor: pointer;
+  	outline: none;
+  	box-shadow:0 0 6px 1px rgba(40, 40, 40,0.1);
+}
+
+.crt_bd_but:hover {
+	box-shadow: inset 0 0 10px 1px rgba(239, 235, 230,0.4);
+}
+
+
+/*ZALORZENIE KONTA*/
+.sign_up {
+	max-width: 380px;
+	padding: 60px 30px 50px;
+	border: 1px solid #e6eaf2;
+	border-radius: 20px;
+	background: #f9fbff;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+}
+.sign_up_title {
+	font-weight: 600;
+	font-family: sans-serif;
+	font-size: 26px;
+	letter-spacing: -0.5px;
+}
+.SUinp {
+	outline: none;
+	margin-top: 10px;
+	font-family: 26px;
+	padding: 8px 0px 8px 5px;
+	min-width: 340px;
+	width:100%;
+	border-radius: 6px;
+	border: 1px solid #393b44;
+}
+.SUinpCkB {
+	margin-top: 10px;
+}
+.SU_text {
+	font-family: sans-serif;
+
+}
+.SU_text a {
+	text-decoration:none;
+}
+.SU_but {
+	margin-top: 30px;
+	padding: 5px 12px;
+	font-family: arial;
+	font-weight:600;
+	font-size: 15px;
+	color: white;
+
+	border-radius: 10px;
+	border: none;
+	background: #258af7;
+
+	cursor: pointer;
+	outline:none;
+}
+.SU_but:hover {
+	box-shadow: 0 0 12px 2px #a9d3f2;
+}
+.pass_restrictions {
+	font-family: arial;
+	font-size: 14px;
+	color: #59acff;
+}
+.error {
+	font-family: arial;
+	margin-top: 5px;
+}
+
+/*ZAMOWIENIE PRODUKTU*/
+.OrderProduct {
+	padding: 30px 30px 20px;
+	border: 1px solid #eae8e5;
+	border-radius: 20px;
+	background: #fcf9ef;
+}
+.OPr-title {
+	font-weight: 600;
+	font-family: sans-serif;
+	font-size: 26px;
+	letter-spacing: -0.5px;
+	color: #30302f;
+	text-align: center;
+}
